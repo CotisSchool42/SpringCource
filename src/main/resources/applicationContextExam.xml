@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+   <bean id="modernMusic"
+         class="Exam.ModernMusic" >
+   </bean>
+
+    <bean id="classicalMusic"
+          class="Exam.ClassicalMusic" >
+    </bean>
+
+    <bean id="rockMusic"
+          class="Exam.RockMusic" >
+    </bean>
+
+    <bean id="musicPlayer"
+          class="Exam.MusicPlayer"
+          scope="prototype" >
+        <property name="list" >
+            <list>
+                <ref bean="classicalMusic" />
+                <ref bean="modernMusic" />
+                <ref bean="rockMusic" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="user"
+          class="Exam.User"
+          init-method="Init"
+          destroy-method="Destroy" >
+        <constructor-arg ref="musicPlayer" />
+    </bean>
+
+</beans>

@@ -1,0 +1,72 @@
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:63 - ********************************
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:64 - Native library search paths: 
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:948 - /Users/over/.config/PVS-Studio-Java/7.11.44138
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:948 - .
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:948 - /Users/over/.config/PVS-Studio-Java/7.11.44138/..
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:948 - /Users/over/.config/PVS-Studio-Java/7.11.44138/../..
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:948 - /Users/over/.config/PVS-Studio-Java/7.11.44138/../../build
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:66 - Additional path: native/mac
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:75 - Native library found: /Users/over/.config/PVS-Studio-Java/7.11.44138/native/mac/libanalysis-core.dylib
+2021-02-19 00:11:41 [INFO ] c.p.r.NativeLoader:76 - ********************************
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:48 - Module: SpringCourse
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:49 - Sources:
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/IdeaProjects/SpringCourse/src/test/java
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/IdeaProjects/SpringCourse/src/main/java
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:51 - Classpath:
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jce.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/.m2/repository/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/sa-jdi.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/.m2/repository/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/javaws.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jaccess.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/dt.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfr.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/packager.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/.m2/repository/org/springframework/spring-expression/5.3.3/spring-expression-5.3.3.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jsse.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/management-agent.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/jfxswt.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/tools.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/.m2/repository/org/springframework/spring-aop/5.3.3/spring-aop-5.3.3.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/plugin.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/ant-javafx.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/rt.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/javafx-mx.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/.m2/repository/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/resources.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Users/over/.m2/repository/org/springframework/spring-context/5.3.3/spring-context-5.3.3.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/lib/jconsole.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/charsets.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.JsonEvaluator:75 - /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre/lib/deploy.jar
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:187 - Load model from cache...
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:191 - Build model incrementally...
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:192 - Current time: 1613682702676
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:193 - Last build time: 1613681383362
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:194 - Keyset size: 33
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:195 - Input sources size: 33
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:201 - Removed sources size: 0
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:202 - Added sources size: 0
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:203 - Common sources size: 33
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:214 - Incremental sources size: 2
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:217 - Old types size: 33
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:228 - Changed types size: 2
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:230 - Enter types loop
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:252 - Exit types loop
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:264 - Old packages size: 7
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:273 - Data processed
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:279 - Added: 0
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:280 - Removed: 0
+2021-02-19 00:11:42 [INFO ] c.p.p.IncrementalLauncher:281 - Modified : 4
+2021-02-19 00:11:43 [INFO ] c.p.p.IncrementalLauncher:303 - Cache saving started.
+2021-02-19 00:11:43 [INFO ] c.p.p.IncrementalLauncher:346 - Cache saving finished.
+2021-02-19 00:11:43 [INFO ] c.p.p.Module:388 - Model build success.

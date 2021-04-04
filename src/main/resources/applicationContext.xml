@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!-- Первый день -->
+    <!-- Внедрение через конструктор -->
+    <bean id="musicBean"
+          class="spring.zero.ClassicalMusic">
+    </bean>
+    <bean id="musicPlayer"
+          class="spring.zero.MusicPlayer">
+        <constructor-arg  ref="musicBean" />
+        <property name="music" ref="musicBean"/>
+        <property name="defName" value="default"/>
+        <property name="defVolume" value="90"/>
+    </bean>
+
+    <!-- Внедрение через setter -->
+    <bean id="authorBean"
+          class="spring.zero.RockMusic"
+          init-method="init"
+          destroy-method="destroy"
+          factory-method="getRockMusic">
+    </bean>
+    <bean id="datePlayer"
+          class="spring.zero.MusicPlayer">
+        <property name="author" ref="authorBean"/>
+    </bean>
+
+    <!-- Внедрение через setter, конструктор и простые значения-->
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+    <bean id="allInAll"
+          class="spring.zero.MusicPlayer">
+        <constructor-arg name="music" ref="musicBean" />
+        <property name="author" ref="authorBean"/>
+        <property name="defName" value="${musicPlayer.defName}"/>
+        <property name="defVolume" value="${musicPlayer.defVolume}"/>
+    </bean>
+
+    <bean id="modernBean"
+          class="spring.zero.ModernMusic">
+    </bean>
+
+    <bean id="list"
+          class="spring.zero.MusicPlayer">
+
+        <constructor-arg>
+            <list>
+                <ref bean="authorBean"/>
+                <ref bean="musicBean"/>
+                <ref bean="modernBean"/>
+            </list>
+        </constructor-arg>
+
+    </bean>
+    <!-- Scope singleton по умолчанию. Указывает при создании бина на один и тот же бин -->
+    <!-- Scope prototype. Spring при вызове метода getBean создает новый обьект. Будут отличаться hash. Разные обьекты -->
+
+    <!-- DI это недрение зависимостей представляет механизм, который позволяет сделать взаимодействующие в приложении объекты слабосвязанными.
+Такие объекты связаны между собой через абстракции, например, через интерфейсы, что делает всю систему более гибкой,
+более адаптируемой и расширяемой. -->
+
+    <!-- Второй день-->
+
+    <!-- Конфигурации Бинов-->
+<!-- 1. Запускается Spring-приложение 2. Запускается Spring-контейнер, который содержит все бины -->
+<!-- 3. Создается обьект бина(Spring читает конфигурацию и создает обьект класса(к примеру обьект класса Classical Music -->
+<!-- 4. Далее в бин внедряются зависимости, в последнем примере внедряется список зависимостей через пустой класс (Dependency Injection) -->
+<!-- 5. Вызывается init-method="", который вызывается в ходе инициализации бина. Инициализация ресурсов, подключение к БД -->
+<!-- 6. Бин готов к использованию. 7. Вызовется destroy-method="", закрытия потоков ввода выввода. Закрытие подключения к БД -->
+<!-- У нас он сейчас автоматический. 8. Spring завершается -->
+
+<!-- Init и  Destroy могут иметь любой модификатор доступа. Тип возвращаемого значения чаще всего void(Любой). -->
+<!-- ЭТИ МЕТОДЫ БЕЗ АРГУМЕНТОВ. Prototype не вызывается Destroy-->
+
+<!-- Factory-method. Обьекты создаются через вызов особого фабричного метода. Тоесть не напрямую используя new. -->
+
+</beans>
